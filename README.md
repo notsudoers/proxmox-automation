@@ -1,5 +1,7 @@
 ## Proxmox Automation Script
 
+By: [@Script47ph](https://github.com/Script47ph)
+
 ### Create VMs with custom cloud-init provisioning
 
 ```bash
@@ -10,20 +12,20 @@ Features:
 - [x] Easy to use
 - [x] Pull latest image from generic cloud
 - [x] Update to 5.x kernel
-- [x] Adding zram
+- [x] Enable zram
 - [x] Enable ssh password authentication
 - [x] Add qemu-guest-agent for better controlling vms
 
 Available distributions:
 - [x] Debian 10
 - [x] Debian 11
-- [ ] Ubuntu 18.04
-- [ ] Ubuntu 20.04
-- [ ] Ubuntu 22.04
-- [ ] CentOS 7
-- [ ] CentOS 8 Stream
-- [ ] CentOS 9 Stream
-- [ ] AlmaLinux 8
-- [ ] AlmaLinux 9
-- [ ] Rocky Linux 8
-- [ ] Rocky Linux 9
+- [x] Ubuntu 18.04
+- [x] Ubuntu 20.04
+- [x] Ubuntu 22.04
+- [x] CentOS 7
+- [x] CentOS 8 Stream
+- [x] CentOS 9 Stream
+- [x] AlmaLinux 8
+- [x] AlmaLinux 9
+- [x] Rocky Linux 8
+- [x] Rocky Linux 9
