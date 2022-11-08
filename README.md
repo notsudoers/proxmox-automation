@@ -1,7 +1,5 @@
 ## Proxmox Automation Script
 
-By: [@Script47ph](https://github.com/Script47ph)
-
 ### Create VMs with custom cloud-init provisioning
 
 ```bash
@@ -15,6 +13,7 @@ Features:
 - [x] Enable zram
 - [x] Enable ssh password authentication
 - [x] Add qemu-guest-agent for better controlling vms
+- [x] Add dedicated speedtest (Powered by Fast.com - Netflix). Thanks to [ddo/fast](https://github.com/ddo/fast) for bringing this to the cli world.
 
 Available distributions:
 - [x] Debian 10
