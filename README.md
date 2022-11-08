@@ -3,7 +3,7 @@
 ### Create VMs with custom cloud-init provisioning
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Script47ph/proxmox-automation/main/pve-create-vms.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Script47ph/proxmox-automation/main/pve-create-vms.sh)"
 ```
 
 Features:
