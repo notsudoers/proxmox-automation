@@ -2,8 +2,20 @@
 
 ### Create VMs with custom cloud-init provisioning
 
+#### Proxmox Debian Method
+
+Script for proxmox debian installation method.
+
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Script47ph/proxmox-automation/main/pve-create-vms.sh)"
+```
+
+#### Proxmox Iso Method
+
+Script for proxmox iso installation method. Add "snippets" to the content of local storage via proxmox dashboard (Datacenter > Storage > local > edit) before using this script.
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Script47ph/proxmox-automation/main/pve-create-vms-iso.sh)"
 ```
 
 Features:
